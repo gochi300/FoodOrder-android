@@ -1,0 +1,8 @@
+
+}squid:S1450"_Remove the "btnProceedToCart" field and declare it as a local variable in the relevant methods.(Çˆ»Ç8Â—†òÙ-
+zsquid:S1450"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(î×îúÿÿÿÿ8ı“îñÙ-
+~squid:S1450"[Remove the "cartTextView" field and declare it as a local variable in the relevant methods.(£‘õøÿÿÿÿ8Æ¶İ§Ş-
+{squid:S1450"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8ı“îñÙ-
+squid:S1450"\Remove the "mRecyclerView" field and declare it as a local variable in the relevant methods.(Òéıÿÿÿÿ8¥›„òÙ-
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(äÏıÿ
+‚squid:S1450"dRemove the "dividerItemDecoration" field and declare it as a local variable in the relevant methods.(ÍÕ¢Ñ8ı“îñÙ-

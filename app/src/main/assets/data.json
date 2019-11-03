@@ -1,0 +1,68 @@
+[
+  {
+    "productName": "Bondwe",
+    "slug": "bondwe",
+    "price": "45",
+    "productImage": "bondwe"
+  },
+  {
+    "productName": "Chibwabwa",
+    "slug": "chibwawba",
+    "price": "35",
+    "productImage": "chibwabwa"
+  },
+  {
+    "productName": "Chikanda",
+    "slug": "chikanda",
+    "price": "75",
+    "productImage": "chikanda"
+  },
+  {
+    "productName": "Delele",
+    "slug": "delele",
+    "price": "60",
+    "productImage": "delele"
+  },
+  {
+    "productName": "Impwa",
+    "slug": "impwa",
+    "price": "50",
+    "productImage": "impwa"
+  },
+  {
+    "productName": "Inswa",
+    "slug": "inswa",
+    "price": "20",
+    "productImage": "inswa"
+  },
+  {
+    "productName": "Kalembula",
+    "slug": "kalembula",
+    "price": "45",
+    "productImage": "kalembula"
+  },
+  {
+    "productName": "Kandolo",
+    "slug": "kandolo",
+    "price": "85",
+    "productImage": "kandolo"
+  },
+  {
+    "productName": "Kapenta",
+    "slug": "kapenta",
+    "price": "105",
+    "productImage": "kapenta"
+  },
+  {
+    "productName": "Katapa",
+    "slug": "katapa",
+    "price": "35",
+    "productImage": "katapa"
+  },
+  {
+    "productName": "Lumanda",
+    "slug": "lumanda",
+    "price": "65",
+    "productImage": "lumanda"
+  }
+]

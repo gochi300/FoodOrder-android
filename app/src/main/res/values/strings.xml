@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Food Order App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_food_menu">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_feedback">Feedback</string>
+
+    <string name="about_text">
+        "Lorem ipsum scelerisque pulvinar neque semper litora per nec quam sodales, gravida diam molestie hac eleifend a habitasse netus vulputate. \n\n"
+        "Cras primis torquent gravida neque fringilla vulputate conubia nunc, taciti egestas velit nisl volutpat massa porttitor tortor, libero sagittis turpis erat nisi tortor tristique. \n\n"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
