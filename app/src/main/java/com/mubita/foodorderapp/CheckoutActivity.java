@@ -211,8 +211,9 @@ public class CheckoutActivity extends AppCompatActivity {
 
     public void processPayment(){
         amount = String.valueOf(AppDataStore.getInstance().getTotalAmount());
+        System.out.println(amount);
         PayPalPayment payPalPayment = new PayPalPayment(new BigDecimal(amount), "USD", "Payment for order", PayPalPayment.PAYMENT_INTENT_SALE);
-        Intent intent = new Intent(this, CheckoutActivity.class);
+        Intent intent = new Intent(this, PaymentActivity.class);
         intent.putExtra(PayPalService.EXTRA_PAYPAL_CONFIGURATION, config);
         intent.putExtra(PaymentActivity.EXTRA_PAYMENT, payPalPayment);
         startActivityForResult(intent, PAYPAL_REQUEST_CODE);
@@ -221,7 +222,8 @@ public class CheckoutActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == PAYPAL_REQUEST_CODE) {
+        if (requestCode == PAYPAL_REQUEST_CODE)
+        {
             if (resultCode == RESULT_OK) {
                 PaymentConfirmation paymentConfirmation = data.getParcelableExtra(PaymentActivity.EXTRA_RESULT_CONFIRMATION);
                 if (paymentConfirmation != null) {

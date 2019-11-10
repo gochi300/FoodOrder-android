@@ -14,6 +14,7 @@ public class Notification {
     @SerializedName("created_at")
     private String createdAt;
     private boolean read;
+    private boolean receipt;
 
     public Notification() {
     }
@@ -58,4 +59,11 @@ public class Notification {
         this.read = read;
     }
 
+    public boolean isReceipt() {
+        return receipt;
+    }
+
+    public void setReceipt(boolean receipt) {
+        this.receipt = receipt;
+    }
 }

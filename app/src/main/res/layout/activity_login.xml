@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Mobile Number"
-            android:inputType="phone"/>
+            android:inputType="phone"
+            android:text="0977123456"/>
 
         <EditText
             android:id="@+id/editText2"
@@ -27,7 +28,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:text="123456"/>
 
         <Button
             android:id="@+id/loginBtn"

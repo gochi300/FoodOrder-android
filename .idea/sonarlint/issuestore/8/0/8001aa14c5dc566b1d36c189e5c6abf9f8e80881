@@ -1,11 +1,11 @@
 
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
-Osquid:S1905.",Remove this unnecessary cast to "TabLayout".(ŽÚ¾¸ýÿÿÿÿ8¼ý·ãâ-
-Jsquid:S1905/",Remove this unnecessary cast to "ViewPager".(ÈÖñˆ8¼ý·ãâ-
-Ssquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8Ï­ëä×-
-{squid:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ý·ãâ-
 Tsquid:S1905*"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Ï­ëä×-
-Rsquid:S1905$"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8°·–ÐÞ-
-Msquid:S1905!"*Remove this unnecessary cast to "Toolbar".(ªü–ýÿÿÿÿ8Ï­ëä×-
-Rsquid:S1905O"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8°·–ÐÞ-
+Jsquid:S1905/",Remove this unnecessary cast to "ViewPager".(ÈÖñˆ8¼ý·ãâ-
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
+Ssquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8Ï­ëä×-
 vsquid:S1450"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä8¼ý·ãâ-
+{squid:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ý·ãâ-
+Osquid:S1905.",Remove this unnecessary cast to "TabLayout".(ŽÚ¾¸ýÿÿÿÿ8¼ý·ãâ-
+Rsquid:S1905O"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8°·–ÐÞ-
+Msquid:S1905!"*Remove this unnecessary cast to "Toolbar".(ªü–ýÿÿÿÿ8Ï­ëä×-
+Rsquid:S1905$"/Remove this unnecessary cast to "DrawerLayout".(ÐÍè¨þÿÿÿÿ8°·–ÐÞ-

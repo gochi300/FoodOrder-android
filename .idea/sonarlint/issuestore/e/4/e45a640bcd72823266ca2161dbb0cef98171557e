@@ -1,8 +1,9 @@
 
-‚squid:UselessImportCheck
-"RRemove this unused import 'androidx.swiperefreshlayout.widget.SwipeRefreshLayout'.(”Ù®“úÿÿÿÿ8·à›äâ-
-csquid:S2259K"EA "NullPointerException" could be thrown; "orders1" is nullable here.(âÔı8£¡öæâ-
 {squid:S1450$"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8ÛŸââ-
 lsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¶Ù‹8ÛŸââ-
+csquid:S2259K"EA "NullPointerException" could be thrown; "orders1" is nullable here.(âÔı8£¡öæâ-
 Osquid:S1068#",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8ÛŸââ-
 ‚squid:S1450%"dRemove the "dividerItemDecoration" field and declare it as a local variable in the relevant methods.(ÍÕ¢Ñ8¿“›äâ-
+‚squid:UselessImportCheck
+"RRemove this unused import 'androidx.swiperefreshlayout.widget.SwipeRefreshLayout'.(”Ù®“úÿÿÿÿ8·à›äâ-
+isquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(ü™æŒ8±‰¿Šã-

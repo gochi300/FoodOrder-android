@@ -1,26 +1,23 @@
 
+{squid:S1450"XRemove the "btnRemove" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8§‹ÀæÙ-
+|squid:S1450"_Remove the "answerImageView1" field and declare it as a local variable in the relevant methods.(ê¼Ü8Åßºå×-
+xsquid:S1450"ZRemove the "productName" field and declare it as a local variable in the relevant methods.(…œ£ß8·Éø³á-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(™Ä¸úüÿÿÿÿ
 Nsquid:S1481'"0Remove this unused "description" local variable.(âéÎŒ8ÿÊÎíÙ-
-isquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(éÎî8Ø·ÖæÙ-
-isquid:CommentedOutCodeLine`"<This block of commented-out lines of code should be removed.(öä×8·Éø³á-
-Isquid:S1659"+Declare "priceTextView" on a separate line.(í¤ó©8´´ÈíÙ-
-€squid:S1450"bRemove the "productNameTextView" field and declare it as a local variable in the relevant methods.(í¤ó©8‚ŽÚòÙ-
-hsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(£¢Äu8·Éø³á-
-~squid:S1450"[Remove the "btnAddToCart" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8ýûáíÙ-
+ksquid:UselessImportCheck"ARemove this unused import 'com.mubita.foodorderapp.models.Order'.(ÌûÍ8°Ô–Šã-
 Msquid:S1659"*Declare "btnAddToCart" on a separate line.(Ìÿõœúÿÿÿÿ8Ý™ßíÙ-
 zsquid:S1450"\Remove the "priceTextView" field and declare it as a local variable in the relevant methods.(í¤ó©8µ‚ÖæÙ-
-|squid:S1450"_Remove the "answerImageView1" field and declare it as a local variable in the relevant methods.(ê¼Ü8Åßºå×-
-ysquid:S1450"[Remove the "productPrice" field and declare it as a local variable in the relevant methods.(øŽäì8·Éø³á-
-Jsquid:S1481$"'Remove this unused "id" local variable.(ÿ÷š¹üÿÿÿÿ8®þ¹å×-
 Jsquid:S1659"'Declare "btnRemove" on a separate line.(Ìÿõœúÿÿÿÿ8Ýá½æÙ-
-xsquid:S1450"ZRemove the "productName" field and declare it as a local variable in the relevant methods.(…œ£ß8·Éø³á-
 ]squid:S1854'"?Remove this useless assignment to local variable "description".(âéÎŒ8ÿÊÎíÙ-
-Ysquid:S1854$"6Remove this useless assignment to local variable "id".(ÿ÷š¹üÿÿÿÿ8®þ¹å×-
 Gsquid:S1659"$Declare "btnAdd" on a separate line.(Ìÿõœúÿÿÿÿ8¶»àíÙ-
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(™Ä¸úüÿÿÿÿ
 xsquid:S1450"URemove the "btnAdd" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8úÃâíÙ-
-Lsquid:S1659".Declare "quantityTextView" on a separate line.(í¤ó©8ÞÀÊæÙ-
-{squid:S1450"XRemove the "btnRemove" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8§‹ÀæÙ-
-nsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(°Æ…Êøÿÿÿÿ8—ÕÊíÙ-
+€squid:S1450"bRemove the "productNameTextView" field and declare it as a local variable in the relevant methods.(í¤ó©8‚ŽÚòÙ-
 {squid:S1450"XRemove the "btnBuyNow" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8®ÀæÙ-
-nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ôŠ•ùÿÿÿÿ8þÈëÏÞ-
-isquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(éÎî8á÷æÙ-
+Jsquid:S1481$"'Remove this unused "id" local variable.(ÿ÷š¹üÿÿÿÿ8®þ¹å×-
+nsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(°Æ…Êøÿÿÿÿ8—ÕÊíÙ-
+Lsquid:S1659".Declare "quantityTextView" on a separate line.(í¤ó©8ÞÀÊæÙ-
+Ysquid:S1854$"6Remove this useless assignment to local variable "id".(ÿ÷š¹üÿÿÿÿ8®þ¹å×-
+Isquid:S1659"+Declare "priceTextView" on a separate line.(í¤ó©8´´ÈíÙ-
+ysquid:S1450"[Remove the "productPrice" field and declare it as a local variable in the relevant methods.(øŽäì8·Éø³á-
+~squid:S1450"[Remove the "btnAddToCart" field and declare it as a local variable in the relevant methods.(Ìÿõœúÿÿÿÿ8ýûáíÙ-
+nsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(ôŠ•ùÿÿÿÿ8´¦šŠã-

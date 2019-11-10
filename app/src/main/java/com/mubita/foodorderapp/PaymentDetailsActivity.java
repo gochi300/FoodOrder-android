@@ -18,23 +18,20 @@ public class PaymentDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_details);
 
-        txtId = (TextView) txtId.findViewById(R.id.txtId);
-        txtAmount = (TextView) txtId.findViewById(R.id.txtAmount);
-        txtStatus = (TextView) txtId.findViewById(R.id.txtStatus);
+        txtId = findViewById(R.id.txtId);
+        txtAmount = findViewById(R.id.txtAmount);
+        txtStatus = findViewById(R.id.txtStatus);
 
         // Get Intent
         Intent intent = getIntent();
 
         try {
-
             JSONObject jsonObject = new JSONObject(intent.getStringExtra("PaymentDetails"));
             showDetails(jsonObject.getJSONObject("response"), intent.getStringExtra("PaymentAmount"));
 
         } catch (JSONException e){
             e.printStackTrace();
         }
-
-
 
     }
 

@@ -1,11 +1,11 @@
 
-Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
-Dsquid:S1068"-Remove this unused "orderList" private field.(çÈ˜Œ
-}"squid:ClassVariableVisibilityCheckK"OMake add a static final constant or non-public and provide accessors if needed.(Ë‰ÄË
-)squid:S2176F"Rename this class.(¯ôšÔ
 gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž±—„ùÿÿÿÿ
 ~"squid:ClassVariableVisibilityCheckH"QMake sName a static final constant or non-public and provide accessors if needed.(üÌŽd
-"squid:ClassVariableVisibilityCheckI"QMake price a static final constant or non-public and provide accessors if needed.(ÁÎ¯÷
 ˜squid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+}"squid:ClassVariableVisibilityCheckK"OMake add a static final constant or non-public and provide accessors if needed.(Ë‰ÄË
+"squid:ClassVariableVisibilityCheckI"QMake price a static final constant or non-public and provide accessors if needed.(ÁÎ¯÷
+Dsquid:S1068"-Remove this unused "orderList" private field.(çÈ˜Œ
 |"squid:ClassVariableVisibilityCheckJ"OMake qty a static final constant or non-public and provide accessors if needed.(ž‹– 
+Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
+)squid:S2176F"Rename this class.(¯ôšÔ
 ‚"squid:ClassVariableVisibilityCheckL"TMake listItem a static final constant or non-public and provide accessors if needed.(¾¹¾

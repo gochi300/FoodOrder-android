@@ -1,13 +1,12 @@
 
-~"squid:ClassVariableVisibilityCheckJ"QMake sName a static final constant or non-public and provide accessors if needed.(üÌd
-"squid:ClassVariableVisibilityCheckK"QMake price a static final constant or non-public and provide accessors if needed.(ÁÎ¯÷
-|"squid:ClassVariableVisibilityCheckL"OMake qty a static final constant or non-public and provide accessors if needed.(‹– 
-}"squid:ClassVariableVisibilityCheckM"OMake add a static final constant or non-public and provide accessors if needed.(Ë‰ÄË
-‚"squid:ClassVariableVisibilityCheckN"TMake listItem a static final constant or non-public and provide accessors if needed.(¾¹¾
-˜squid:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
-)squid:S2176H"Rename this class.(¯ôšÔ
-Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
-Dsquid:S1068"-Remove this unused "orderList" private field.(çÈ˜Œ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±—„ùÿÿÿÿ
-bsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(–²
-bsquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(ÛÖ©º
+}"squid:ClassVariableVisibilityCheckK"OMake add a static final constant or non-public and provide accessors if needed.(Ë‰ÄË
+)squid:S2176F"Rename this class.(¯ôšÔ
+|"squid:ClassVariableVisibilityCheckJ"OMake qty a static final constant or non-public and provide accessors if needed.(‹– 
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±—„ùÿÿÿÿ
+"squid:ClassVariableVisibilityCheckI"QMake price a static final constant or non-public and provide accessors if needed.(ÁÎ¯÷
+ksquid:UselessImportCheck"ARemove this unused import 'com.mubita.foodorderapp.models.Order'.(ÌûÍ8Ìò•ˆã-
+isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ÛÖ©º8´ÿ–‰ã-
+‚"squid:ClassVariableVisibilityCheckL"TMake listItem a static final constant or non-public and provide accessors if needed.(¾¹¾
+˜squid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+Hsquid:S1068",Remove this unused "mContext" private field.(»úÅ¾øÿÿÿÿ
+~"squid:ClassVariableVisibilityCheckH"QMake sName a static final constant or non-public and provide accessors if needed.(üÌd
