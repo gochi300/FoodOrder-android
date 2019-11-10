@@ -17,7 +17,9 @@ import android.widget.Toast;
 import com.mubita.foodorderapp.adapters.OrderListAdapter;
 import com.mubita.foodorderapp.api.ApiClient;
 import com.mubita.foodorderapp.api.ApiInterface;
+import com.mubita.foodorderapp.models.AppDatabase;
 import com.mubita.foodorderapp.models.Order;
+import com.mubita.foodorderapp.models.OrderDao;
 import com.mubita.foodorderapp.viewmodel.OrderViewModel;
 
 import java.util.ArrayList;
@@ -80,7 +82,7 @@ public class OrdersActivity extends AppCompatActivity {
         });
 
         // **
-        //getOrdersFromAPI();
+        getOrdersFromAPI();
 
     }
 
@@ -95,6 +97,9 @@ public class OrdersActivity extends AppCompatActivity {
                 if(response.body() != null){
                     List<Order> orderList = response.body();
 
+
+                    OrderDao orderDao = AppDatabase.getInstance(OrdersActivity.this).orderDao();
+                    orderDao.deleteAllOrders();
                     for (Order order: orderList )
                     {
                         orderViewModel.insert(order);
