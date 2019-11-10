@@ -227,7 +227,7 @@ public class CheckoutActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 PaymentConfirmation paymentConfirmation = data.getParcelableExtra(PaymentActivity.EXTRA_RESULT_CONFIRMATION);
                 if (paymentConfirmation != null) {
-                    try {
+                    /*try {
                         String paymentDetails = paymentConfirmation.toJSONObject().toString(4);
                         startActivity(new Intent(this, PaymentDetailsActivity.class)
                                 .putExtra("PaymentDetails", paymentDetails)
@@ -235,7 +235,9 @@ public class CheckoutActivity extends AppCompatActivity {
                         );
                     } catch (JSONException e) {
                         e.printStackTrace();
-                    }
+                    }*/
+
+                    processOrder();
                 }
             } else if (resultCode == Activity.RESULT_CANCELED)
                 Toast.makeText(this, "Cancel", Toast.LENGTH_SHORT).show();
