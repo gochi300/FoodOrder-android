@@ -18,7 +18,7 @@ public class OrderViewModel extends AndroidViewModel {
 
     public OrderViewModel(@NonNull Application application) {
         super(application);
-        repository = new OrderRepository(application);
+        repository = new OrderRepository(application.getApplicationContext());
         allOrders = repository.getAllOrders();
     }
 

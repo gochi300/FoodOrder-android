@@ -185,6 +185,7 @@ public class MainActivity extends AppCompatActivity
                                               System.out.println("Syncing Started!");
 
                                               dataSync.getNotifications(context);
+                                              dataSync.getOrders(context);
                                               // **
                                               invalidateOptionsMenu();
                                           }
@@ -192,7 +193,7 @@ public class MainActivity extends AppCompatActivity
                     // Set how long before to start calling the TimerTask (in milliseconds)
                     0,
                     // Set the amount of time between each execution (in milliseconds)
-                    1000);
+                    3000);
         }
 
     }

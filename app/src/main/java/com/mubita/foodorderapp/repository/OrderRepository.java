@@ -1,6 +1,7 @@
 package com.mubita.foodorderapp.repository;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
@@ -16,8 +17,8 @@ public class OrderRepository {
     private LiveData<List<Order>> allOrders;
     private LiveData<List<Order>> getOrdersByOrderNumber;
 
-    public OrderRepository(Application application) {
-        AppDatabase database = AppDatabase.getInstance(application);
+    public OrderRepository(Context context) {
+        AppDatabase database = AppDatabase.getInstance(context);
         orderDao = database.orderDao();
         allOrders = orderDao.getAllOrders();
     }
