@@ -16,9 +16,12 @@ public class AppDataStore {
     private List<Order> cartArrayList = new ArrayList<>();
     private List<Order> orderArrayList = new ArrayList<>();
 
+    private int notifCount;
     private int totalItems = 2;
     private Double totalAmount = 0.00;
     private boolean showPopUp = false;
+    /*timer*/
+    private boolean isRunning = false;
 
     /**
      * Private constructor to prevent further instantiation
@@ -104,5 +107,21 @@ public class AppDataStore {
 
     public void setShowPopUp(boolean showPopUp) {
         this.showPopUp = showPopUp;
+    }
+
+    public int getNotifCount() {
+        return notifCount;
+    }
+
+    public void setNotifCount(int notifCount) {
+        this.notifCount = notifCount;
+    }
+
+    public boolean isRunning() {
+        return isRunning;
+    }
+
+    public void setRunning(boolean running) {
+        isRunning = running;
     }
 }

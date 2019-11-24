@@ -14,6 +14,7 @@ import java.util.List;
 public class OrderRepository {
     private OrderDao orderDao;
     private LiveData<List<Order>> allOrders;
+    private LiveData<List<Order>> getOrdersByOrderNumber;
 
     public OrderRepository(Application application) {
         AppDatabase database = AppDatabase.getInstance(application);
@@ -39,6 +40,11 @@ public class OrderRepository {
 
     public LiveData<List<Order>> getAllOrders() {
         return allOrders;
+    }
+
+    public LiveData<List<Order>> getOrdersByOrderNumber(long orderNumber) {
+        getOrdersByOrderNumber = orderDao.getOrdersByOrderNumber(orderNumber);
+        return getOrdersByOrderNumber;
     }
 
     private static class InsertOrderAsyncTask extends AsyncTask<Order, Void, Void> {

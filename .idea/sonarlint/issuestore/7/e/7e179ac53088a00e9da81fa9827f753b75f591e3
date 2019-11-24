@@ -1,12 +1,13 @@
 
-~"squid:ClassVariableVisibilityCheckV"QMake sName a static final constant or non-public and provide accessors if needed.(üÌŽd
-_squid:S18544"<Remove this useless assignment to local variable "cartList".(¬Þƒçûÿÿÿÿ8¸ýß«Þ-
-isquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(ÛÖ©º8ÚîÖñÙ-
-‡"squid:ClassVariableVisibilityCheckX"RMake remove a static final constant or non-public and provide accessors if needed.(ÔàŽ«8À­±¨Þ-
-Ÿsquid:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††8ÚîÖñÙ-
-Ksquid:S1068"-Remove this unused "orderList" private field.(çÈ˜Œ8ÚîÖñÙ-
-‰"squid:ClassVariableVisibilityCheckY"TMake listItem a static final constant or non-public and provide accessors if needed.(¾¹¾8ÚîÖñÙ-
-0squid:S2176T"Rename this class.(¯ôšÔ8ÚîÖñÙ-
-|"squid:ClassVariableVisibilityCheckW"OMake qty a static final constant or non-public and provide accessors if needed.(ž‹– 
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž±—„ùÿÿÿÿ8ÚîÖñÙ-
-nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(Ø¢Ññøÿÿÿÿ8ÚîÖñÙ-
+nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(Ø¢Ññøÿÿÿÿ8ÚîÖñÙ-
+Ÿsquid:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††8ÚîÖñÙ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž±—„ùÿÿÿÿ8ÚîÖñÙ-
+‰"squid:ClassVariableVisibilityCheckZ"TMake listItem a static final constant or non-public and provide accessors if needed.(¾¹¾8ÚîÖñÙ-
+~"squid:ClassVariableVisibilityCheckW"QMake sName a static final constant or non-public and provide accessors if needed.(üÌŽd
+‡"squid:ClassVariableVisibilityCheckY"RMake remove a static final constant or non-public and provide accessors if needed.(ÔàŽ«8À­±¨Þ-
+|"squid:ClassVariableVisibilityCheckX"OMake qty a static final constant or non-public and provide accessors if needed.(ž‹– 
+isquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(ÛÖ©º8ÚîÖñÙ-
+0squid:S2176U"Rename this class.(¯ôšÔ8ÚîÖñÙ-
+ksquid:UselessImportCheck"ARemove this unused import 'com.mubita.foodorderapp.models.Order'.(ÌûÍ8¥ÙæËç-
+\squid:S18545"?Remove this useless assignment to local variable "productList".(¯Ùn8¥ÙæËç-
+Psquid:S1068"-Remove this unused "orderList" private field.(ÉÒ³ƒûÿÿÿÿ8¥ÙæËç-

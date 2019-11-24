@@ -13,7 +13,7 @@ import java.util.List;
 @Dao
 public interface NotificationDao {
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(Notification notification);
 
     @Update
@@ -27,5 +27,8 @@ public interface NotificationDao {
 
     @Query("SELECT * FROM notifications ORDER BY id DESC")
     LiveData<List<Notification>> getAllNotifications();
+
+    @Query("SELECT * FROM notifications WHERE read = 0 ")
+    LiveData<List<Notification>> getUnreadNotifications();
 
 }

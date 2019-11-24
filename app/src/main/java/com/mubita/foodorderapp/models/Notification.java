@@ -11,12 +11,13 @@ public class Notification {
     private int id;
     private String subject;
     private String message;
+    private long orderNumber;
     @SerializedName("created_at")
     private String createdAt;
     private boolean read;
-    private boolean receipt;
 
     public Notification() {
+        //read = false;
     }
 
     public int getId() {
@@ -39,6 +40,14 @@ public class Notification {
         return message;
     }
 
+    public long getOrderNumber() {
+        return orderNumber;
+    }
+
+    public void setOrderNumber(long orderNumber) {
+        this.orderNumber = orderNumber;
+    }
+
     public void setMessage(String message) {
         this.message = message;
     }
@@ -57,13 +66,5 @@ public class Notification {
 
     public void setRead(boolean read) {
         this.read = read;
-    }
-
-    public boolean isReceipt() {
-        return receipt;
-    }
-
-    public void setReceipt(boolean receipt) {
-        this.receipt = receipt;
     }
 }

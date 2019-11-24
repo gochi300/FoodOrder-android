@@ -1,11 +1,16 @@
 
-Tsquid:S1905*"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Ï­ëä×-
-Jsquid:S1905/",Remove this unnecessary cast to "ViewPager".(ÈÖñˆ8¼ı·ãâ-
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
-Ssquid:S1905"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Ï­ëä×-
-vsquid:S1450"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä8¼ı·ãâ-
-{squid:S1450"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ı·ãâ-
-Osquid:S1905.",Remove this unnecessary cast to "TabLayout".(Ú¾¸ıÿÿÿÿ8¼ı·ãâ-
-Rsquid:S1905O"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
-Msquid:S1905!"*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8Ï­ëä×-
-Rsquid:S1905$"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
+Jsquid:S1905>",Remove this unnecessary cast to "ViewPager".(ÈÖñˆ8¼ı·ãâ-
+psquid:S2259Ğ"LA "NullPointerException" could be thrown; "notifications1" is nullable here.(áø¨ôúÿÿÿÿ8óç¨æ-
+Rsquid:S19053"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
+\
+squid:S106¹"9Replace this use of System.out or System.err by a logger.( ÿ‚†ùÿÿÿÿ8×¦æ§æ-
+osquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(éˆ²ªúÿÿÿÿ8–ÙŒ¨æ-
+{squid:S1450&"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ı·ãâ-
+vsquid:S1450%"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä8¼ı·ãâ-
+Hsquid:S1125²")Remove the literal "false" boolean value.(Å»Øš8×¦æ§æ-
+Tsquid:S19059"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Ï­ëä×-
+Osquid:S1905=",Remove this unnecessary cast to "TabLayout".(Ú¾¸ıÿÿÿÿ8¼ı·ãâ-
+Ssquid:S1905—"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Ï­ëä×-
+qsquid:MaximumInheritanceDepth""<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
+Msquid:S19050"*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8Ï­ëä×-
+Rsquid:S1905b"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-

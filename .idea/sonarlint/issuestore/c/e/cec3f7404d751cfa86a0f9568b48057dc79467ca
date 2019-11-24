@@ -1,9 +1,9 @@
 
-‚"squid:ClassVariableVisibilityCheckT"UMake createdAt a static final constant or non-public and provide accessors if needed.(¶’…
-Rsquid:S1854("6Remove this useless assignment to local variable "id".(šıâçûÿÿÿÿ
-)squid:S2176O"Rename this class.(¯ôšÔ
-Csquid:S1481("'Remove this unused "id" local variable.(šıâçûÿÿÿÿ
-Œ"squid:ClassVariableVisibilityCheckR"^Make notificationHeader a static final constant or non-public and provide accessors if needed.(†“ñ©
-"squid:ClassVariableVisibilityCheckQ"ZMake notificationID a static final constant or non-public and provide accessors if needed.(å­æ©ÿÿÿÿÿ
-"squid:ClassVariableVisibilityCheckU"TMake listItem a static final constant or non-public and provide accessors if needed.(ÌÖø0
-Š"squid:ClassVariableVisibilityCheckS"\Make notificationInfo a static final constant or non-public and provide accessors if needed.(öıÏ
+ˆ"squid:ClassVariableVisibilityCheckc"TMake listItem a static final constant or non-public and provide accessors if needed.(ÌÖø08¸áÿ©æ-
+Rsquid:S1854+"6Remove this useless assignment to local variable "id".(šıâçûÿÿÿÿ
+"squid:ClassVariableVisibilityCheck_"ZMake notificationID a static final constant or non-public and provide accessors if needed.(å­æ©ÿÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck`"^Make notificationHeader a static final constant or non-public and provide accessors if needed.(†“ñ©
+Š"squid:ClassVariableVisibilityChecka"\Make notificationInfo a static final constant or non-public and provide accessors if needed.(öıÏ
+Csquid:S1481+"'Remove this unused "id" local variable.(šıâçûÿÿÿÿ
+0squid:S2176]"Rename this class.(¯ôšÔ8¸áÿ©æ-
+‚"squid:ClassVariableVisibilityCheckb"UMake createdAt a static final constant or non-public and provide accessors if needed.(¶’…

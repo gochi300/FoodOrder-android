@@ -1,17 +1,21 @@
 package com.mubita.foodorderapp;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.navigation.NavigationView;
@@ -19,12 +23,23 @@ import com.google.android.material.tabs.TabLayout;
 import com.mubita.foodorderapp.adapters.PagerAdapter;
 import com.mubita.foodorderapp.fragments.DrinksFragment;
 import com.mubita.foodorderapp.fragments.FoodFragment;
+import com.mubita.foodorderapp.models.Notification;
+import com.mubita.foodorderapp.utilities.DataSync;
+import com.mubita.foodorderapp.viewmodel.NotificationViewModel;
+
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    // **
+    private int notifCount;
+    final Timer timer = new Timer();
+    DataSync dataSync = new DataSync();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +87,10 @@ public class MainActivity extends AppCompatActivity
             AppDataStore.getInstance().setShowPopUp(true);
         }
 
+        appDatabaseSync(MainActivity.this);
+
+        getUnreadNotificationCount();
+
     }
 
     @Override
@@ -90,6 +109,9 @@ public class MainActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.main, menu);
         MenuItem menuItem = menu.findItem(R.id.action_cart);
         menuItem.setIcon(Converter.convertLayoutToImage(MainActivity.this, AppDataStore.getInstance().getProductList().size(), R.drawable.ic_shopping_cart_white_24dp));
+
+        MenuItem menuItem1 = menu.findItem(R.id.nav_notifications);
+        menuItem1.setIcon(Converter.convertLayoutToImage(MainActivity.this, notifCount, R.drawable.ic_notifications_white_24dp));
         return true;
     }
 
@@ -149,6 +171,44 @@ public class MainActivity extends AppCompatActivity
         }
 
         return true;
+    }
+
+    public void appDatabaseSync(final Context context){
+        //invalidateOptionsMenu();
+        if(AppDataStore.getInstance().isRunning() == false){
+            // Set the schedule function and rate
+            timer.scheduleAtFixedRate(new TimerTask() {
+                                          @Override
+                                          public void run() {
+                                              AppDataStore.getInstance().setRunning(true);
+                                              // Called each time when 5000 milliseconds (1 second) (the period parameter)
+                                              System.out.println("Syncing Started!");
+
+                                              dataSync.getNotifications(context);
+                                              // **
+                                              invalidateOptionsMenu();
+                                          }
+                                      },
+                    // Set how long before to start calling the TimerTask (in milliseconds)
+                    0,
+                    // Set the amount of time between each execution (in milliseconds)
+                    1000);
+        }
+
+    }
+
+    public void getUnreadNotificationCount(){
+
+        NotificationViewModel notificationViewModel;
+
+        notificationViewModel = ViewModelProviders.of(this).get(NotificationViewModel.class);
+        notificationViewModel.getUnreadNotifications().observe(this, new Observer<List<Notification>>() {
+            @Override
+            public void onChanged(@Nullable List<Notification> notifications1) {
+                notifCount = notifications1.size();
+            }
+        });
+
     }
 
 }

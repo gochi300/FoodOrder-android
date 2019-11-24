@@ -15,11 +15,13 @@ import java.util.List;
 public class NotificationViewModel extends AndroidViewModel {
     private NotificationRepository repository;
     private LiveData<List<Notification>> allNotifications;
+    private LiveData<List<Notification>> unreadNotifications;
 
     public NotificationViewModel(@NonNull Application application) {
         super(application);
-        repository = new NotificationRepository(application);
+        repository = new NotificationRepository(application.getApplicationContext());
         allNotifications = repository.getAllNotifications();
+        unreadNotifications = repository.getUnreadNotificationss();
     }
 
     public void insert(Notification notification) {
@@ -40,5 +42,9 @@ public class NotificationViewModel extends AndroidViewModel {
 
     public LiveData<List<Notification>> getAllNotifications() {
         return allNotifications;
+    }
+
+    public LiveData<List<Notification>> getUnreadNotifications() {
+        return unreadNotifications;
     }
 }

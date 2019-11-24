@@ -1,6 +1,7 @@
 package com.mubita.foodorderapp.repository;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
@@ -14,11 +15,13 @@ import java.util.List;
 public class NotificationRepository {
     private NotificationDao notificationDao;
     private LiveData<List<Notification>> allNotifications;
+    private LiveData<List<Notification>> unreadNotifications;
 
-    public NotificationRepository(Application application) {
-        AppDatabase database = AppDatabase.getInstance(application);
+    public NotificationRepository(Context context) {
+        AppDatabase database = AppDatabase.getInstance(context);
         notificationDao = database.notificationDao();
         allNotifications = notificationDao.getAllNotifications();
+        unreadNotifications = notificationDao.getUnreadNotifications();
     }
 
     public void insert(Notification notification) {
@@ -39,6 +42,10 @@ public class NotificationRepository {
 
     public LiveData<List<Notification>> getAllNotifications() {
         return allNotifications;
+    }
+
+    public LiveData<List<Notification>> getUnreadNotificationss() {
+        return unreadNotifications;
     }
 
     private static class InsertNotificationAsyncTask extends AsyncTask<Notification, Void, Void> {

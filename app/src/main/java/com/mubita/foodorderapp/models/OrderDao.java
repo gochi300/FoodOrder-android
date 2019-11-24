@@ -26,7 +26,7 @@ public interface OrderDao {
     void deleteAllOrders();
 
     @Query("SELECT * FROM orders Where orderNumber = :orderNumber ORDER BY orderNumber DESC")
-    Order getOrderByOrderId(long orderNumber);
+    LiveData<List<Order>> getOrdersByOrderNumber(long orderNumber);
 
     @Query("SELECT * FROM orders GROUP BY orderNumber ORDER BY orderNumber DESC")
     LiveData<List<Order>> getAllOrders();

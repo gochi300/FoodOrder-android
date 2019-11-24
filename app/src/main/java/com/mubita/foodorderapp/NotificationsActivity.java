@@ -93,6 +93,7 @@ public class NotificationsActivity extends AppCompatActivity {
 
                     for (Notification notification: notification1)
                     {
+                        notification.setRead(false);
                         notificationViewModel.insert(notification);
                     }
                 }

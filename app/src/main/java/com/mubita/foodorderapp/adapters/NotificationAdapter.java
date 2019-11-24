@@ -2,6 +2,7 @@ package com.mubita.foodorderapp.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mubita.foodorderapp.NotificationViewActivity;
 import com.mubita.foodorderapp.R;
+import com.mubita.foodorderapp.models.AppDatabase;
 import com.mubita.foodorderapp.models.Notification;
+import com.mubita.foodorderapp.models.NotificationDao;
 
 import java.util.List;
 
@@ -46,13 +49,24 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
         viewHolder.notificationHeader.setText(notificationHeader);
         viewHolder.notificationInfo.setText(notificationInfo);
 
+        if(!mNotifications.get(i).isRead()){
+            viewHolder.notificationHeader.setTypeface(Typeface.SANS_SERIF, Typeface.BOLD);
+            viewHolder.notificationInfo.setTypeface(Typeface.SANS_SERIF, Typeface.BOLD);
+        }
+
         viewHolder.listItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Notification notification = mNotifications.get(i);
+                notification.setRead(true);
+                // **
+                NotificationDao notificationDao = AppDatabase.getInstance(mContext).notificationDao();
+                notificationDao.update(notification);
 
                 Intent intent = new Intent(mContext, NotificationViewActivity.class);
                 intent.putExtra("notificationSubject", mNotifications.get(i).getSubject());
                 intent.putExtra("notificationMessage", mNotifications.get(i).getMessage());
+                intent.putExtra("orderNumber", mNotifications.get(i).getOrderNumber());
                 intent.putExtra("createdAt", mNotifications.get(i).getCreatedAt());
                 mContext.startActivity(intent);
             }

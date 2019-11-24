@@ -81,3 +81,7 @@ v
 Fapp/src/main/java/com/mubita/foodorderapp/utilities/PaymentConfig.java,5\d\5dd26383f8a310653925d6c6b9e178c6fafeea4d
 w
 Gapp/src/main/java/com/mubita/foodorderapp/fragments/DrinksFragment.java,c\7\c758be17bf199ad9da33994879720c3903b12152
+q
+Aapp/src/main/java/com/mubita/foodorderapp/utilities/DataSync.java,4\f\4f274b3190b9c9866cd4814a7ea80c55438e79e9
+v
+Fapp/src/main/java/com/mubita/foodorderapp/adapters/ReceiptAdapter.java,f\c\fc37da662c4b970b9643bf2e82db96b302b872df

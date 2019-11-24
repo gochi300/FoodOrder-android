@@ -14,6 +14,7 @@ import java.util.List;
 public class OrderViewModel extends AndroidViewModel {
     private OrderRepository repository;
     private LiveData<List<Order>> allOrders;
+    private LiveData<List<Order>> getOrdersByOrderNumber;
 
     public OrderViewModel(@NonNull Application application) {
         super(application);
@@ -39,5 +40,10 @@ public class OrderViewModel extends AndroidViewModel {
 
     public LiveData<List<Order>> getAllOrders() {
         return allOrders;
+    }
+
+    public LiveData<List<Order>> getOrdersByOrderNumber(long orderNumber) {
+        getOrdersByOrderNumber = repository.getOrdersByOrderNumber(orderNumber);
+        return getOrdersByOrderNumber;
     }
 }
