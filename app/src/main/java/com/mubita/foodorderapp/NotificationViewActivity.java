@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.mubita.foodorderapp.adapters.ReceiptAdapter;
@@ -24,6 +25,7 @@ public class NotificationViewActivity extends AppCompatActivity {
 
     public TextView notificationMessageTextView;
     public TextView createdAtTextView;
+    public RelativeLayout receiptLabel;
     // **
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -49,6 +51,7 @@ public class NotificationViewActivity extends AppCompatActivity {
 
         notificationMessageTextView = findViewById(R.id.notificationInfo);
         createdAtTextView = findViewById(R.id.textView6);
+        receiptLabel = findViewById(R.id.receiptLabel);
 
         notificationMessageTextView.setText(notificationMessage);
         createdAtTextView.setText(createdAt);
@@ -56,6 +59,7 @@ public class NotificationViewActivity extends AppCompatActivity {
         // **
         if(orderNumber != 0){
             showReceipt(orderNumber);
+            receiptLabel.setVisibility(View.VISIBLE);
         }
     }
 

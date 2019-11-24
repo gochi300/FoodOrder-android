@@ -23,28 +23,29 @@
         android:layout_marginBottom="5dp"/>
 
     <RelativeLayout
+        android:id="@+id/receiptLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <TextView
-            android:id="@+id/products"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:textStyle="bold"
-            android:text="PRODUCTS"/>
+            android:text="PRODUCTS" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
-            android:text="QUANTITY"/>
+            android:text="QUANTITY" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +53,8 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:textStyle="bold"
-            android:text="COST" />
+            android:text="COST"
+            android:visibility="gone"/>
 
     </RelativeLayout>
 
