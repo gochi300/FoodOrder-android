@@ -70,23 +70,6 @@ public class MainActivity extends AppCompatActivity
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
-
-        if(!AppDataStore.getInstance().isShowPopUp()){
-            // **
-            AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-            alertDialog.setTitle("Welcome to Mubita's Food Order App");
-            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE,"OK",
-                    new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    });
-            alertDialog.show();
-
-            // **
-            AppDataStore.getInstance().setShowPopUp(true);
-        }
-
         appDatabaseSync(MainActivity.this);
 
         getUnreadNotificationCount();

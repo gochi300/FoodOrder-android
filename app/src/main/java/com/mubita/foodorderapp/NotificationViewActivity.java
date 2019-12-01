@@ -26,6 +26,8 @@ public class NotificationViewActivity extends AppCompatActivity {
     public TextView notificationMessageTextView;
     public TextView createdAtTextView;
     public RelativeLayout receiptLabel;
+    public RelativeLayout receiptLabel2;
+    public TextView totalCost;
     // **
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -52,6 +54,8 @@ public class NotificationViewActivity extends AppCompatActivity {
         notificationMessageTextView = findViewById(R.id.notificationInfo);
         createdAtTextView = findViewById(R.id.textView6);
         receiptLabel = findViewById(R.id.receiptLabel);
+        receiptLabel2 = findViewById(R.id.receiptLabel2);
+        totalCost = findViewById(R.id.total_cost);
 
         notificationMessageTextView.setText(notificationMessage);
         createdAtTextView.setText(createdAt);
@@ -60,6 +64,7 @@ public class NotificationViewActivity extends AppCompatActivity {
         if(orderNumber != 0){
             showReceipt(orderNumber);
             receiptLabel.setVisibility(View.VISIBLE);
+            receiptLabel2.setVisibility(View.VISIBLE);
         }
     }
 
@@ -84,6 +89,11 @@ public class NotificationViewActivity extends AppCompatActivity {
                 adapter.setmProducts(orderList);
                 if(!orderList.isEmpty()){
                     mRecyclerView.setVisibility(View.VISIBLE);
+                    Double myTotal = 0.00;
+                    for (Order order: orderList){
+                        myTotal = myTotal+ order.getTotalPrice();
+                    }
+                    totalCost.setText("K"+Double.toString(myTotal));
                 }
             }
         });

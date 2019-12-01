@@ -19,7 +19,6 @@ public class AppDataStore {
     private int notifCount;
     private int totalItems = 2;
     private Double totalAmount = 0.00;
-    private boolean showPopUp = false;
     /*timer*/
     private boolean isRunning = false;
 
@@ -99,14 +98,6 @@ public class AppDataStore {
 
     public void setTotalAmount(Double totalAmount) {
         this.totalAmount = totalAmount;
-    }
-
-    public boolean isShowPopUp() {
-        return showPopUp;
-    }
-
-    public void setShowPopUp(boolean showPopUp) {
-        this.showPopUp = showPopUp;
     }
 
     public int getNotifCount() {

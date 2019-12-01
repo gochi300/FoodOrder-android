@@ -85,3 +85,9 @@ q
 Aapp/src/main/java/com/mubita/foodorderapp/utilities/DataSync.java,4\f\4f274b3190b9c9866cd4814a7ea80c55438e79e9
 v
 Fapp/src/main/java/com/mubita/foodorderapp/adapters/ReceiptAdapter.java,f\c\fc37da662c4b970b9643bf2e82db96b302b872df
+j
+:app/src/main/res/layout/recyclerview_notification_item.xml,c\2\c226b2ff6dc3d48427b30f16e89aab37daebee1b
+j
+:app/src/main/res/layout/recyclerview_receipt_list_item.xml,3\9\3918639d76ad45eeff0159a4093e6baee9861cd2
+f
+6app/src/main/res/layout/activity_notification_view.xml,c\a\ca806e32b2feaef194283cf341f09c5bafaaa3ba

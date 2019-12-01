@@ -1,2 +1,3 @@
 
-‚squid:S1450"eRemove the "getOrdersByOrderNumber" field and declare it as a local variable in the relevant methods.(ÎÄÿo8³×ïÊç-
+‚squid:S1450"eRemove the "getOrdersByOrderNumber" field and declare it as a local variable in the relevant methods.(ÎÄÿo8³×ïÊç-
+^squid:UselessImportCheck"4Remove this unused import 'android.app.Application'.(¢¶ÿI8¤­İîé-

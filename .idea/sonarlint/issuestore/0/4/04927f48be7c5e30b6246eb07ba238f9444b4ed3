@@ -1,8 +1,11 @@
 
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ð‡öùýÿÿÿÿ
-{squid:S1450"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8»øÃËç-
-—"squid:ClassVariableVisibilityCheck"]Make createdAtTextView a static final constant or non-public and provide accessors if needed.(ú‚¸çýÿÿÿÿ8Úòìãâ-
-Osquid:S1068",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8•°ÀËç-
-¡"squid:ClassVariableVisibilityCheck"gMake notificationMessageTextView a static final constant or non-public and provide accessors if needed.(ÒõÃ—úÿÿÿÿ8²Êíãâ-
-jsquid:S2259Q"GA "NullPointerException" could be thrown; "orderList" is nullable here.(¦·ÀÊüÿÿÿÿ8‰çåËç-
-{squid:S1450!"]Remove the "orderViewModel" field and declare it as a local variable in the relevant methods.(ÚÒ†Ï8öŒÇËç-
+Œ"squid:ClassVariableVisibilityCheck"XMake receiptLabel a static final constant or non-public and provide accessors if needed.(ÃÝÑm8 žîé-
+jsquid:S2259Z"GA "NullPointerException" could be thrown; "orderList" is nullable here.(¦·ÀÊüÿÿÿÿ8‰çåËç-
+{squid:S1450""]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8»øÃËç-
+"squid:ClassVariableVisibilityCheck"UMake totalCost a static final constant or non-public and provide accessors if needed.(½½Œ¬þÿÿÿÿ8›†¦ë-
+"squid:ClassVariableVisibilityCheck"YMake receiptLabel2 a static final constant or non-public and provide accessors if needed.(“ËªA8¬Ïóïé-
+Osquid:S1068!",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8•°ÀËç-
+{squid:S1450%"]Remove the "orderViewModel" field and declare it as a local variable in the relevant methods.(ÚÒ†Ï8öŒÇËç-
+—"squid:ClassVariableVisibilityCheck"]Make createdAtTextView a static final constant or non-public and provide accessors if needed.(ú‚¸çýÿÿÿÿ8Úòìãâ-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ð‡öùýÿÿÿÿ
+¡"squid:ClassVariableVisibilityCheck"gMake notificationMessageTextView a static final constant or non-public and provide accessors if needed.(ÒõÃ—úÿÿÿÿ8²Êíãâ-

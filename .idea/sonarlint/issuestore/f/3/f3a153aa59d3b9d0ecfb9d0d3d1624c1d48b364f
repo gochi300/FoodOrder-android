@@ -1,5 +1,5 @@
 
+osquid:S2259E"LA "NullPointerException" could be thrown; "notifications1" is nullable here.(ì¹¦•üÿÿÿÿ8‘‚Šãâ-
 jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¼§ºûÿÿÿÿ
 {squid:S1450""]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8£¦„ãâ-
-osquid:S2259E"LA "NullPointerException" could be thrown; "notifications1" is nullable here.(ì¹¦•üÿÿÿÿ8‘‚Šãâ-
 Osquid:S1068!",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8£¦„ãâ-
