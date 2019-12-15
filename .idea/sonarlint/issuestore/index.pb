@@ -91,3 +91,9 @@ j
 :app/src/main/res/layout/recyclerview_receipt_list_item.xml,3\9\3918639d76ad45eeff0159a4093e6baee9861cd2
 f
 6app/src/main/res/layout/activity_notification_view.xml,c\a\ca806e32b2feaef194283cf341f09c5bafaaa3ba
+s
+Capp/src/main/java/com/mubita/foodorderapp/SplashScreenActivity.java,c\c\cc066c5c36f466adda21395d3ae5194f68eaa178
+V
+&app/src/main/res/values-v21/styles.xml,5\e\5e338aa95a9ccc9ff14833f68ae53c39ac2dc210
+b
+2app/src/main/res/layout/activity_splash_screen.xml,f\7\f7df685f78aceccfe92840b30dd70c70674d7944

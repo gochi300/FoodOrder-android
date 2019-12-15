@@ -68,6 +68,7 @@ public class ProductViewActivity extends AppCompatActivity {
                 int pCount2 = Integer.parseInt(pCount1);
                 pCount2++;
                 quantityTextView.setText(Integer.toString(pCount2));
+                priceTextView.setText("K" + productPrice*pCount2);
             }
         });
 
@@ -80,6 +81,7 @@ public class ProductViewActivity extends AppCompatActivity {
                 if(pCount2 > 1){
                     pCount2--;
                     quantityTextView.setText(Integer.toString(pCount2));
+                    priceTextView.setText("K" + productPrice*pCount2);
                 }
             }
         });

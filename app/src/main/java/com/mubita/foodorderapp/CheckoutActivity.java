@@ -36,6 +36,7 @@ import org.json.JSONException;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,6 +57,8 @@ public class CheckoutActivity extends AppCompatActivity {
     // **
     private OrderViewModel orderViewModel;
     Spinner spinnerPaymentOptions;
+    // **
+    SimpleDateFormat dateFormatter = new SimpleDateFormat("EEE dd MMM, yyyy HH:mm:ss");
 
 
     /*PAYPAL*/
@@ -71,6 +74,9 @@ public class CheckoutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkout);
+
+        // **
+        orderViewModel = ViewModelProviders.of(CheckoutActivity.this).get(OrderViewModel.class);
 
         /*RecyclerView*/
         mRecyclerView = findViewById(R.id.recycler_view);
@@ -172,6 +178,7 @@ public class CheckoutActivity extends AppCompatActivity {
         List<Product> productList = AppDataStore.getInstance().getProductList();
 
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        String dateTime = dateFormatter.format(timestamp);
 
         //traverse arrayList and save to db
         List<Order> orderList = new ArrayList<>();
@@ -182,7 +189,6 @@ public class CheckoutActivity extends AppCompatActivity {
             String productName = product.getProductName();
             Integer productPrice = product.getProductPrice();
             Integer productQty = product.getProductQty();
-
             // **
             Order order = new Order();
             order.setProductId(productId);
@@ -192,11 +198,9 @@ public class CheckoutActivity extends AppCompatActivity {
             order.setOrderQty(productQty);
             order.setTotalPrice(productPrice);
             order.setOrderStatus("pending");
-
+            order.setOrderTime(dateTime);
             // **
-            orderViewModel = ViewModelProviders.of(CheckoutActivity.this).get(OrderViewModel.class);
             orderViewModel.insert(order);
-
             orderList.add(order);
 
         }

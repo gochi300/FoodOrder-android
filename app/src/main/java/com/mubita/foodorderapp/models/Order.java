@@ -15,7 +15,8 @@ public class Order {
     private int orderQty;
     private int totalPrice;
     private String orderStatus;
-    private Long orderTime;
+    private String orderDateTime;
+    private String orderTime;
 
     public Order() {
     }
@@ -84,11 +85,19 @@ public class Order {
         this.orderStatus = orderStatus;
     }
 
-    public Long getOrderTime() {
+    public String getOrderDateTime() {
+        return orderDateTime;
+    }
+
+    public void setOrderDateTime(String orderDateTime) {
+        this.orderDateTime = orderDateTime;
+    }
+
+    public String getOrderTime() {
         return orderTime;
     }
 
-    public void setOrderTime(Long orderTime) {
+    public void setOrderTime(String orderTime) {
         this.orderTime = orderTime;
     }
 }

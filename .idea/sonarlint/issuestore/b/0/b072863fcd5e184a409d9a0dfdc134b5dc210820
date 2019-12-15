@@ -1,18 +1,18 @@
 
 Isquid:S1444@",Make this "public static config" field final(ˆÆæC8½ä€…ã-
-‚squid:S14505"dRemove the "dividerItemDecoration" field and declare it as a local variable in the relevant methods.(ÍÕ¢Ñ8½ä€…ã-
-jsquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(½‘Ñ³8÷µ’Ëå-
 fsquid:S2259ä"BA "NullPointerException" could be thrown; "data" is nullable here.(ëÎ¬Úýÿÿÿÿ8ÁÄö‰ã-
+{squid:S14504"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8½ä€…ã-
 †"squid:ClassVariableVisibilityCheck@"RMake config a static final constant or non-public and provide accessors if needed.(ˆÆæC8½ä€…ã-
 ysquid:S14500"[Remove the "apiInterface" field and declare it as a local variable in the relevant methods.(ï¹ë›8½ä€…ã-
-qsquid:MaximumInheritanceDepth."<This class has 6 parents which is greater than 5 authorized.(†ãÒ§øÿÿÿÿ8½ä€…ã-
-|squid:S14506"YRemove the "btnConfirm" field and declare it as a local variable in the relevant methods.(¼ç½¬ÿÿÿÿÿ8½ä€…ã-
-|squid:S14507"YRemove the "total_cost" field and declare it as a local variable in the relevant methods.(Ü²º¯ýÿÿÿÿ8íÓÌˆã-
-squid:S14502"\Remove the "mRecyclerView" field and declare it as a local variable in the relevant methods.(Òéýÿÿÿÿ8½ä€…ã-
-zsquid:S14503"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(î×îúÿÿÿÿ8½ä€…ã-
 \
 squid:S106Ö"9Replace this use of System.out or System.err by a logger.(Ÿžö·þÿÿÿÿ8÷àëâã-
-ysquid:S001167"URename this field "total_cost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü²º¯ýÿÿÿÿ8³Àˆã-
+‚squid:S14505"dRemove the "dividerItemDecoration" field and declare it as a local variable in the relevant methods.(ÍÕ¢Ñ8½ä€…ã-
+qsquid:MaximumInheritanceDepth."<This class has 6 parents which is greater than 5 authorized.(†ãÒ§øÿÿÿÿ8½ä€…ã-
 {squid:S14509"]Remove the "orderViewModel" field and declare it as a local variable in the relevant methods.(ÚÒ†Ï8¤õ¶‡ã-
+zsquid:S14503"WRemove the "mAdapter" field and declare it as a local variable in the relevant methods.(î×îúÿÿÿÿ8½ä€…ã-
+|squid:S14507"YRemove the "total_cost" field and declare it as a local variable in the relevant methods.(Ü²º¯ýÿÿÿÿ8íÓÌˆã-
+ysquid:S001167"URename this field "total_cost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü²º¯ýÿÿÿÿ8³Àˆã-
 jsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(äå²«8ÁÄö‰ã-
-{squid:S14504"]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8½ä€…ã-
+squid:S14502"\Remove the "mRecyclerView" field and declare it as a local variable in the relevant methods.(Òéýÿÿÿÿ8½ä€…ã-
+jsquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(½‘Ñ³8÷µ’Ëå-
+|squid:S14506"YRemove the "btnConfirm" field and declare it as a local variable in the relevant methods.(¼ç½¬ÿÿÿÿÿ8½ä€…ã-

@@ -1,11 +1,11 @@
 
-Œ"squid:ClassVariableVisibilityCheck"XMake receiptLabel a static final constant or non-public and provide accessors if needed.(ÃİÑm8 îé-
-jsquid:S2259Z"GA "NullPointerException" could be thrown; "orderList" is nullable here.(¦·ÀÊüÿÿÿÿ8‰çåËç-
-{squid:S1450""]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8»øÃËç-
-"squid:ClassVariableVisibilityCheck"UMake totalCost a static final constant or non-public and provide accessors if needed.(½½Œ¬şÿÿÿÿ8›†¦ë-
-"squid:ClassVariableVisibilityCheck"YMake receiptLabel2 a static final constant or non-public and provide accessors if needed.(“ËªA8¬Ïóïé-
-Osquid:S1068!",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8•°ÀËç-
-{squid:S1450%"]Remove the "orderViewModel" field and declare it as a local variable in the relevant methods.(ÚÒ†Ï8öŒÇËç-
-—"squid:ClassVariableVisibilityCheck"]Make createdAtTextView a static final constant or non-public and provide accessors if needed.(ú‚¸çıÿÿÿÿ8Úòìãâ-
-jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ğ‡öùıÿÿÿÿ
 ¡"squid:ClassVariableVisibilityCheck"gMake notificationMessageTextView a static final constant or non-public and provide accessors if needed.(ÒõÃ—úÿÿÿÿ8²Êíãâ-
+"squid:ClassVariableVisibilityCheck"UMake totalCost a static final constant or non-public and provide accessors if needed.(½½Œ¬şÿÿÿÿ8›†¦ë-
+jsquid:S2259Z"GA "NullPointerException" could be thrown; "orderList" is nullable here.(¦·ÀÊüÿÿÿÿ8‰çåËç-
+"squid:ClassVariableVisibilityCheck"YMake receiptLabel2 a static final constant or non-public and provide accessors if needed.(“ËªA8¬Ïóïé-
+—"squid:ClassVariableVisibilityCheck"]Make createdAtTextView a static final constant or non-public and provide accessors if needed.(ú‚¸çıÿÿÿÿ8Úòìãâ-
+{squid:S1450%"]Remove the "orderViewModel" field and declare it as a local variable in the relevant methods.(ÚÒ†Ï8öŒÇËç-
+Œ"squid:ClassVariableVisibilityCheck"XMake receiptLabel a static final constant or non-public and provide accessors if needed.(ÃİÑm8 îé-
+Osquid:S1068!",Remove this unused "mAdapter" private field.(î×îúÿÿÿÿ8•°ÀËç-
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ğ‡öùıÿÿÿÿ
+{squid:S1450""]Remove the "mLayoutManager" field and declare it as a local variable in the relevant methods.(¡¾•Ÿ8»øÃËç-

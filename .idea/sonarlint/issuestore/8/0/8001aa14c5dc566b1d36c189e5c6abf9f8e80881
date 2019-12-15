@@ -1,16 +1,18 @@
 
-Tsquid:S19059"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Ï­ëä×-
-Hsquid:S1125²")Remove the literal "false" boolean value.(Å»Øš8×¦æ§æ-
-psquid:S2259Ñ"LA "NullPointerException" could be thrown; "notifications1" is nullable here.(áø¨ôúÿÿÿÿ8óç¨æ-
-qsquid:MaximumInheritanceDepth""<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
 Msquid:S19050"*Remove this unnecessary cast to "Toolbar".(ªü–ıÿÿÿÿ8Ï­ëä×-
-Rsquid:S19053"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
-Rsquid:S1905b"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
+Rsquid:S1905Q"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
 Jsquid:S1905>",Remove this unnecessary cast to "ViewPager".(ÈÖñˆ8¼ı·ãâ-
-{squid:S1450&"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ı·ãâ-
 vsquid:S1450%"XRemove the "tabLayout" field and declare it as a local variable in the relevant methods.(¤×ä8¼ı·ãâ-
-Ssquid:S1905—"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Ï­ëä×-
+Tsquid:S19059"1Remove this unnecessary cast to "NavigationView".(üûÍøÿÿÿÿ8Ï­ëä×-
+Ssquid:S1905†"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8Ï­ëä×-
+Hsquid:S1125¡")Remove the literal "false" boolean value.(Å»Øš8×¦æ§æ-
+Rsquid:S19053"/Remove this unnecessary cast to "DrawerLayout".(ĞÍè¨şÿÿÿÿ8°·–ĞŞ-
+psquid:S2259À"LA "NullPointerException" could be thrown; "notifications1" is nullable here.(áø¨ôúÿÿÿÿ8óç¨æ-
+{squid:S1450&"XRemove the "viewPager" field and declare it as a local variable in the relevant methods.(åÙ¬Ïûÿÿÿÿ8¼ı·ãâ-
+lsquid:UselessImportCheck"<Remove this unused import 'android.content.DialogInterface'.(Š­›¨şÿÿÿÿ8ƒ­×ì-
+qsquid:MaximumInheritanceDepth""<This class has 6 parents which is greater than 5 authorized.(ù ®Íúÿÿÿÿ8à–¹ä×-
 Osquid:S1905=",Remove this unnecessary cast to "TabLayout".(Ú¾¸ıÿÿÿÿ8¼ı·ãâ-
 \
-squid:S106¹"9Replace this use of System.out or System.err by a logger.( ÿ‚†ùÿÿÿÿ8×¦æ§æ-
-osquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(éˆ²ªúÿÿÿÿ8–ÙŒ¨æ-
+squid:S106¨"9Replace this use of System.out or System.err by a logger.( ÿ‚†ùÿÿÿÿ8×¦æ§æ-
+dsquid:UselessImportCheck"4Remove this unused import 'android.app.AlertDialog'.(ª½øşüÿÿÿÿ8ƒ­×ì-
+osquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(éˆ²ªúÿÿÿÿ8–ÙŒ¨æ-
