@@ -169,6 +169,7 @@ public class MainActivity extends AppCompatActivity
 
                                               dataSync.getNotifications(context);
                                               dataSync.getOrders(context);
+
                                               // **
                                               invalidateOptionsMenu();
                                           }
